@@ -12,9 +12,14 @@ Pour l'installation nous avons suivis les étapes ci-dessous:
 
 ![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
 
-## Création des entités
+## Création des entitées
 
-xxx
+Concernant les entitées, nous avons d'abord créé un package nommé _com.groupeisi.entities_ .
+
+Après cela, s'en ai suivis la création de 2 classes: _Comptes.java_ et _Droits.java_ .
+
+Ci-dessous les captures
+
 
 ## Création des dao
 
