@@ -13,7 +13,7 @@ Pour l'installation nous avons suivis les étapes ci-dessous:
 ![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
 - Installation
 
-![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
+![Capture](https://raw.githubusercontent.com/cheikh0101/TP-JSP-Servlet/main/capture/architecture.png)
 - Structuration du projet
 
 ## Création des entitées
@@ -69,7 +69,7 @@ Ci-dessous les captures des différents servlets qui ont été mis en place dans
 
 Ci-dessous la capture de la page de connexion
 
-![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
+![Capture](https://raw.githubusercontent.com/cheikh0101/TP-JSP-Servlet/main/capture/login.png)
 - index.jsp
 ## Création des views
 
