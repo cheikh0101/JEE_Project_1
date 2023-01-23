@@ -2,15 +2,51 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<jsp:include page="head.jsp"></jsp:include>
-<body>
+<head>
+<meta charset="UTF-8">
+<title>TP JSP Servlet</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+	html,
+body {
+  height: 100%;
+}
 
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+</style>
+</head>
+<body>
 <div class="container">
 	<div class="row">
 		<div class="col mt-5">
 			<main class="form-signin">
-			  <form>
-			    <h1 class="h3 mb-3 fw-normal">Se connecter</h1>
+			  <form method="POST" action="LoginServlet">
+			    <h1 class="h3 mb-3 fw-normal text-center">Se connecter</h1>
 			
 			    <div class="form-floating">
 			      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -25,8 +61,10 @@
 			</main>
 		</div>
 	</div>
+
+  <footer class="d-flex flex-wrap align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">&copy; 2023</p>
+  </footer>
 </div>
-	
-	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>
