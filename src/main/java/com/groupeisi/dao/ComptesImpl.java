@@ -8,10 +8,6 @@ import javax.persistence.Persistence;
 
 import com.groupeisi.entities.Comptes;
 
-import sn.isi.dao.Exception;
-import sn.isi.dao.Override;
-import sn.isi.dao.String;
-import sn.isi.entities.User;
 
 
 public class ComptesImpl implements IComptes {
