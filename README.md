@@ -1,4 +1,4 @@
-# JEE_Project_1
+# TP JSP SERVLET
 
 Création d'un projet maven web nommé sécuritéweb.
 
