@@ -23,15 +23,19 @@ Ci-dessous les captures
 
 ## Création des dao
 
-xxx
+Ci-dessous les captures des dao qui ont été créé:
 
 ## Création des servlets
 
-- __[LoginServlet](https://nodeca.github.io/pica/demo/)__ - LoginServlet.
+Ci-dessous les captures des différents servlets
+![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
+
 - __[LogoutServlet](https://github.com/nodeca/babelfish/)__ - LogoutServlet.
 
 ## Création d'une page de connexion
 
-xxx
+Ci-dessous la capture de la page de connexion
 
 ## Création des views
+
+Dans le cadre de ce TP de nombreux views ont été créé. Ci-dessous les captures 
