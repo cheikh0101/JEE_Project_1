@@ -11,4 +11,5 @@ public interface IComptes {
 	public int update(Comptes compte);
 	public int delete(String ref);
 	public Comptes get(String ref);
+	Comptes logon(String username, String password);
 }

@@ -5,7 +5,13 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import sn.isi.controller.String;
+import sn.isi.entities.User;
+
 import java.io.IOException;
+
+import com.groupeisi.dao.ComptesImpl;
+import com.groupeisi.entities.Comptes;
 
 /**
  * Servlet implementation class LoginServlet
@@ -34,7 +40,17 @@ public class LoginServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.sendRedirect("AccueilServlet");
+		String email = request.getParameter("email");
+		String password = request.getParameter("password");
+		Comptes compte = ComptesImpl.logon(email, password);
+		
+		if(compte != null) {
+			request.getSession().setAttribute("usersession", compte);
+			response.sendRedirect("AccueilServlet");
+		} else {
+			response.sendRedirect("LoginServlet");
+		}
+		
 	}
 
 }

@@ -8,6 +8,11 @@ import javax.persistence.Persistence;
 
 import com.groupeisi.entities.Comptes;
 
+import sn.isi.dao.Exception;
+import sn.isi.dao.Override;
+import sn.isi.dao.String;
+import sn.isi.entities.User;
+
 
 public class ComptesImpl implements IComptes {
 	
@@ -76,6 +81,22 @@ public class ComptesImpl implements IComptes {
 	public Comptes get(String ref) {
 		// TODO Auto-generated method stub
 		return em.find(Comptes.class, ref);
+	}
+	
+	@Override
+	public Comptes logon(String username, String password) {
+		try {
+			return (Comptes)em.
+					createQuery("SELECT u FROM User u WHERE u.email LIKE :em AND u.password LIKE :pass")
+					.setParameter("em", username)
+					.setParameter("pass", password)
+					.getSingleResult();
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+			return null;
+		}
 	}
 
 }
