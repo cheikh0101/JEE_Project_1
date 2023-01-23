@@ -2,10 +2,19 @@ package com.groupeisi.entities;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 public class Comptes implements Serializable {
 	
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
+	@Column(length=150)
 	private String username;
+	@Column(length=150)
 	private String password;
 	
 	public Comptes() {}
