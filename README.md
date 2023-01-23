@@ -57,10 +57,10 @@ Ci-dessous les captures des dao qui ont été créé:
 
 Ci-dessous les captures des différents servlets qui ont été mis en place dans le cadre de ce TP:
 
-![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
+![Capture](https://raw.githubusercontent.com/cheikh0101/TP-JSP-Servlet/main/capture/LoginServlet.png)
 - LoginServlet.java
 
-![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
+![Capture](https://raw.githubusercontent.com/cheikh0101/TP-JSP-Servlet/main/capture/LogoutServlet.png)
 - LogoutServlet.java
 
 ![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
