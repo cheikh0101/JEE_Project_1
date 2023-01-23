@@ -24,14 +24,17 @@ Pour l'installation nous avons suivis les étapes ci-dessous:
 
 Concernant les entitées, nous avons d'abord créé un package nommé _com.groupeisi.entities_ .
 
-Après cela, s'en ai suivis la création de 2 classes: _Comptes.java_ et _Droits.java_ .
+Après cela, s'en ai suivis la création de 2 classes: _Comptes.java_ et _Droits.java_ . Mais bien avant l'ORM Hibernate a été ajouté.
 
-Ci-dessous les captures:
+![Capture](https://raw.githubusercontent.com/cheikh0101/TP-JSP-Servlet/main/capture/Ajout%20de%20Hibernate.png)
+- Mis à jour du fichier pom.xml
 
-![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
+Ci-dessous les captures des 2 classes:
+
+![Capture](https://raw.githubusercontent.com/cheikh0101/TP-JSP-Servlet/main/capture/Comptes%20entities.png)
 - Comptes.java
 
-![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
+![Capture](https://raw.githubusercontent.com/cheikh0101/TP-JSP-Servlet/main/capture/Droits%20entities.png)
 - Droits.java
 
 ## Création des dao
