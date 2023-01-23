@@ -41,10 +41,10 @@ Ci-dessous les captures des 2 classes:
 
 Ci-dessous les captures des dao qui ont été créé:
 
-![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
+![Capture](https://raw.githubusercontent.com/cheikh0101/TP-JSP-Servlet/main/capture/IComptes.png)
 - IComptes.java
 
-![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
+![Capture](https://raw.githubusercontent.com/cheikh0101/TP-JSP-Servlet/main/capture/IDroits.png)
 - IDroits.java
 
 ![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
