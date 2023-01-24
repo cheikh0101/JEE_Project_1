@@ -1,15 +1,16 @@
 package com.groupeisi.servlets;
 
+import jakarta.servlet.ServletConfig;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-
 import java.io.IOException;
 
 import com.groupeisi.dao.ComptesImpl;
+import com.groupeisi.dao.IComptes;
 import com.groupeisi.entities.Comptes;
 
 /**
@@ -17,6 +18,7 @@ import com.groupeisi.entities.Comptes;
  */
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	private IComptes comptesdao;
        
     /**
      * @see HttpServlet#HttpServlet()
@@ -25,6 +27,11 @@ public class LoginServlet extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
+    
+public void init(ServletConfig config) throws ServletException {
+		
+		comptesdao = new ComptesImpl();
+	}
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
@@ -41,7 +48,7 @@ public class LoginServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		String email = request.getParameter("email");
 		String password = request.getParameter("password");
-		Comptes compte = ComptesImpl.logon(email, password);
+		Comptes compte = comptesdao.logon(email, password);
 		
 		if(compte != null) {
 			request.getSession().setAttribute("usersession", compte);
