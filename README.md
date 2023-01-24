@@ -63,13 +63,13 @@ Ci-dessous les captures des différents servlets qui ont été mis en place dans
 ![Capture](https://raw.githubusercontent.com/cheikh0101/TP-JSP-Servlet/main/capture/LogoutServlet.png)
 - LogoutServlet.java
 
-![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
+![Capture](https://raw.githubusercontent.com/cheikh0101/TP-JSP-Servlet/main/capture/AccueilServlet.png)
 - AccueilServlet.java
 
-![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
+![Capture](https://raw.githubusercontent.com/cheikh0101/TP-JSP-Servlet/main/capture/Compte%20Servlet.png)
 - CompteServlet.java
 
-![Capture](https://raw.githubusercontent.com/cheikh0101/JEE_Project_1/main/capture/Capture%20d%E2%80%99%C3%A9cran%202023-01-18%20%C3%A0%2019.56.06.png)
+![Capture](https://raw.githubusercontent.com/cheikh0101/TP-JSP-Servlet/main/capture/Droit%20Servlet.png)
 - DroitServlet.java
 
 ## Création d'une page de connexion
